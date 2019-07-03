@@ -1,9 +1,12 @@
 import Vue from "vue";
-import App from "./App.vue";
+import VueRouter from "vue-router";
 import store from "./store";
+import routes from "./routes";
 
+const router = new VueRouter({routes});
+Vue.use(VueRouter);
 new Vue({
    el: "#app",
-   store, // alias para store: store (ES2015)
-   render: h => h(App) 
+   store,
+   router
 });
