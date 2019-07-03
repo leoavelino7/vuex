@@ -14,7 +14,6 @@ export default new Vuex.Store({
     },
     actions: {
         add_category({commit}, newCategory) {
-            console.log("cheguei");
             commit('ADD_CATEGORY', newCategory);
         }
     }
