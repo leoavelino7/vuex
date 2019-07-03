@@ -1,0 +1,30 @@
+{
+  "name": "application-vuex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.7",
+    "vue-style-loader": "^4.1.2",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "path": "^0.12.7",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-merge": "^4.2.1"
+  },
+  "scripts": {
+    "build2": "http-server",
+    "build": "webpack --config ./webpack/webpack.config.js --env production",
+    "start": "webpack-dev-server --config ./webpack/webpack.config.js --env development"
+  },
+  "author": "",
+  "license": "ISC"
+}
