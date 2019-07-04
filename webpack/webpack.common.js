@@ -12,6 +12,12 @@ const commonConfig = {
         filename: '[name].js',
         path: PATHS.build
     },
+    resolve: {
+        alias: {
+            'vue$': 'vue/dist/vue.esm.js'
+        },
+        extensions: ['*', '.js', '.vue', '.json']
+    },
     module: {
         rules: [{
                 test: /\.vue$/,

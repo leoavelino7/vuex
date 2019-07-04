@@ -4,7 +4,8 @@ import About from "./src/pages/About.vue";
 
 const routes = [
     { path: "/", component: Home },
-    { path: "/about", component: About }
+    { path: "/:number", component: About }
 ];
 
 export default routes;
+
