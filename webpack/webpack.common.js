@@ -3,7 +3,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 const PATHS = {
     src: path.join(__dirname, ".."),
-    build: path.join(__dirname, "../dist"),
+    build: path.join(__dirname, "../public/js"),
 }
 
 const commonConfig = {
